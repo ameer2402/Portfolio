@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/server.js"  // Ensure the server is being handled by your server.js file
+      "dest": "/"  // Ensure the server is being handled by your server.js file
     }
   ]
 }
