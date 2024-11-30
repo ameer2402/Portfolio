@@ -51,7 +51,7 @@ app.post("/",async(req,res)=>{
     // Send feedback email
     await transporter.sendMail(mailOptions);
     console.log('email sent successfully');
-    return res.redirect("http://localhost:3000/thank-you");
+    return res.redirect("https://portfolio-frontend-rho-blond.vercel.app/thank-you");
 
   } catch (error) {
     console.error('Error sending email:', error);
