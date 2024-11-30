@@ -45,7 +45,7 @@ const Contact = () => {
                             name="contact-form"
                             method="POST"
                             data-netlify="true"
-                             action="http://localhost:5000"
+                             action="https://portfolio-beta-indol-21.vercel.app"
                         >
                             <input type="hidden" name="form-name" value="contact-form" />
                             <div className="form-top">
