@@ -5,8 +5,16 @@ require("dotenv").config();
 
 const app=express();
 
+const frontendUrl = "https://portfolio-frontend-rho-blond.vercel.app/"; // Add the frontend URL here
+
+// Set up CORS to allow requests from the frontend URL
+app.use(cors({
+  origin: frontendUrl, // Allow requests from your frontend
+  methods: ["GET", "POST"], // Allow only certain HTTP methods (GET, POST)
+  allowedHeaders: ["Content-Type", "Authorization"], // Allow specific headers
+}));
 app.use(express.json()); // To parse JSON request bodies
-app.use(cors());
+
 
 app.use(express.urlencoded({extended:true}));
 
