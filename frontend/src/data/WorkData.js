@@ -49,18 +49,28 @@ export const ReactData = [
 		site: "https://ameer2402.github.io/NewsTracker/",
 	},
 	{
-		title: "Budget App",
-		desc: "A budget web app",
-		tech: ["React.js", "Css"],
-		gitlink: "//www.github.com/Pappyjay23/budget-app",
-		site: "//budget-app-react-0.netlify.app",
+		title: "Proviz School of AI Landing Page",
+		desc: "A full-stack landing page for Proviz School of AI, designed to attract prospective students with a professional design and a secure application form.",
+		tech: [
+			"Node.js",
+			"Express.js",
+			"EJS",
+			"MongoDB",
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"Body-parser",
+			"Mongoose"
+		],
+		gitlink: "https://github.com/ameer2402/Proviz-landing-page",
+		site: ""
 	},
 	{
-		title: "Digitaly",
-		desc: "A website for a digital marketing agency",
-		tech: ["React.js", "TailwindCss", "Framer Motion"],
-		gitlink: "//github.com/Pappyjay23/Digitaly",
-		site: "//digitaly.netlify.app/",
-	},
+		title: "Temperature Converter",
+		desc: "A simple temperature converter with functionality to convert Fahrenheit and Kelvin to Celsius, featuring a dark and light mode toggle and gradient background customization.",
+		tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+		gitlink: "https://github.com/ameer2402/Temperature-Converter",
+		site: "https://ameer2402.github.io/Temperature-Converter/"
+	}
 ];
 
