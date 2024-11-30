@@ -59,11 +59,9 @@ export const ReactData = [
 			"HTML",
 			"CSS",
 			"JavaScript",
-			"Body-parser",
 			"Mongoose"
 		],
 		gitlink: "https://github.com/ameer2402/Proviz-landing-page",
-		site: ""
 	},
 	{
 		title: "Temperature Converter",
