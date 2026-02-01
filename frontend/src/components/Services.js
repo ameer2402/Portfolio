@@ -1,7 +1,5 @@
 import React from 'react';
 import "../styles/Services.css"
-import {IoCreateOutline} from "react-icons/io5"
-import {BiCodeAlt} from "react-icons/bi"
 import { motion } from "framer-motion";
 import { FaGoogle } from "react-icons/fa";
 import { MdBusinessCenter } from "react-icons/md";
@@ -77,4 +75,5 @@ const Services = () => {
 };
 
 export default Services;
+
 
