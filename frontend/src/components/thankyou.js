@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/thankYou.css";
 
 const ThankYou = () => {
-    const [backLink, setBackLink] = useState("/");
+    const [backLink] = useState("/");
 
     return (
         <div className="thank-you-container">
@@ -25,3 +25,4 @@ const ThankYou = () => {
 };
 
 export default ThankYou;
+
