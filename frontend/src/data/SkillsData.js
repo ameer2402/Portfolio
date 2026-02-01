@@ -5,7 +5,7 @@ import {
 	FaHtml5,
 	FaReact,
 } from "react-icons/fa";
-import { SiMongodb, SiNodedotjs, SiExpress, SiJava, SiMysql, SiBootstrap, SiEjs } from 'react-icons/si';
+import { SiMongodb, SiNodedotjs, SiExpress, SiJava, SiMysql, SiBootstrap } from 'react-icons/si';
 
 
 
@@ -107,4 +107,5 @@ export const SkillsData = [
 	},
 	
 ];
+
 
