@@ -21,9 +21,12 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                    <p>Hello! My name is Mohammed Ameerkhan, and I'm a recent graduate with a passion for creating things that live on the internet. My interest in web development started in my third year of college when I joined a bootcamp, sparking my curiosity in the field. From there, I dove into frontend technologies and later expanded into backend and database after graduation.</p>
+                    <p>Hello! My name is Mohammed Ameerkhan, and I'm a Software Application Developer at Google with 1+ years of total experience, currently engineering next-generation solutions for 
+the Real World Journeys (RWJ) Emerging Journey team. Specializes in the intersection of Search and AI, with expertise in 
+full-stack development that seamlessly bridges backend data models with frontend user interfaces. Proficient across the 
+Software Development Life Cycle (SDLC), delivering performance-optimized solutions to enhance user engagement.  </p>
 <br />
-<p>Currently, I’m working on projects related to the MERN stack, and I'm eager to find opportunities to showcase my skills and contribute to impactful digital products. I enjoy learning and experimenting with new technologies, aiming to build accessible and inclusive web applications.</p>
+<p>Passionate about solving complex technical challenges and enabling organizational success and I enjoy tackling complex technical problems, learning new technologies deeply, and building digital products that make a meaningful impact.</p>
 
                     </motion.div>
                     <motion.div initial={{x: '50', opacity: 0}} whileInView={horizontal}  className='about-img'>
@@ -37,3 +40,4 @@ const About = () => {
 };
 
 export default About;
+
