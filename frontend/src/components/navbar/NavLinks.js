@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaLinkedin, FaTwitter} from "react-icons/fa"
+import { FaLinkedin} from "react-icons/fa"
 import {BiEnvelope} from "react-icons/bi"
 import {BsGithub} from "react-icons/bs"
 import { SiLeetcode } from "react-icons/si"
@@ -21,3 +21,4 @@ const NavLinks = ({handleNav}) => {
 };
 
 export default NavLinks;
+
